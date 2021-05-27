@@ -1,7 +1,11 @@
 import { useState } from 'react';
 
 function Home(){
-return src="index.html"
+return (
+<div>
+    <h2>Um novo teste</h2>
+</div>
+)
         
 }
 
