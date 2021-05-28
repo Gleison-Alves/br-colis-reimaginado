@@ -3,9 +3,9 @@ import Link from 'next/link';
 function Sobre(){
 return (
 <div>
-    <h2>pagina Sobre</h2>
+    <h2>pagina Sobre carregada</h2>
     <Link href="/index">
-        <a >acesse o link Home</a>
+        <a>acesse o link Home</a>
     </Link>
 </div>
 )
