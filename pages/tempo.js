@@ -1,4 +1,4 @@
-function tempo(props){
+function Tempo(props){
     const dataDynamic = new Date();
     const dataDynamicString = dataDynamic.toGMTString();
     return(
@@ -19,4 +19,4 @@ export function getStaticProps(){
     }
 }
 
-export default tempo;
+export default Tempo
