@@ -1,10 +1,12 @@
-import { useState } from 'react';
+import Link from 'next/link';
 
 function Sobre(){
 return (
 <div>
     <h2>pagina Sobre</h2>
-    <a href="/index">acesse o link Home</a>
+    <Link href="/sobre">
+        <a >acesse o link Home</a>
+    </Link>
 </div>
 )
         
