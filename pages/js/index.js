@@ -7,7 +7,7 @@ return (
 
     <div>
         <h2>Home</h2>
-        <Link href="/sobre">
+        <Link href="/index.html">
             <a>acesse o link sobre</a>
         </Link>
         
