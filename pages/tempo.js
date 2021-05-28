@@ -1,4 +1,5 @@
 function Tempo(props){
+    console.log('> Passando pelo Frond-end;')
     const dataDynamic = new Date();
     const dataDynamicString = dataDynamic.toGMTString();
     return(
@@ -10,6 +11,7 @@ function Tempo(props){
 }
 
 export function getStaticProps(){
+    console.log('> Passando pelo gerStaticProps();')
     const dataStatic = new Date();
     const dataStaticString = dataStatic.toGMTString();
     return{
